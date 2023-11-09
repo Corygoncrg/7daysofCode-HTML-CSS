@@ -1,0 +1,32 @@
+@import url("styles/header.css");
+@import url("styles/hero__section.css");
+@import url("styles/numbers.css");
+@import url("styles/vagas.css");
+@import url("styles/testimonial.css");
+@import url("styles/footer.css");
+
+:root {
+    --gray: #667085;
+    --dark-gray: #3A404E;
+    --light-gray: #98A2B3;
+    --black: #101828;
+    --red: #8E2424;
+    --white: #FFF;
+    --main-font: 'Inter', sans-serif;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--main-font);
+}

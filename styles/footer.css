@@ -1,0 +1,29 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;    
+    gap: 20px;
+}
+
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.botao__container {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario__email {
+    border: 1px solid var(--gray);
+    padding: 12px 14px 14px 16px;
+    align-self: stretch;
+}
+
+.footer__rights {
+    font-size: 16px;
+    color: var(--light-gray);
+    font-weight: 400;
+}

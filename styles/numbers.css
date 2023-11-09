@@ -1,0 +1,48 @@
+.section__class {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    padding: 0 1em 96px 1em;
+}
+
+.metrics__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.metric__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.data__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.number__highlight {
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--red);
+    font-weight: 600;
+}
+
+.number__title {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.number__info {
+    color: var(--gray);
+    line-height: 24px;
+    width: 28ch;
+}

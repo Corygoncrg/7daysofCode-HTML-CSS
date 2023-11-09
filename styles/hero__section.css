@@ -1,0 +1,50 @@
+.hero__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.span__class {
+    color: var(--red);
+    font-weight: 600;
+
+}
+
+.container__div {
+    justify-content: center;
+    width: 650px;
+    height: 60px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+
+.heading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.96px;
+    color: var(--black);
+}
+
+.container__text {
+    width: 650px;
+    display: flex;
+    padding-top: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.subheading {
+    color: var(--gray);
+    text-align: center;
+}
